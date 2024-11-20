@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Espacos Publicos</title>
+</head>
+<body>
+    <header>
+        <div class="esquerda">
+            <button class="button" id="button" onclick="btnFunction()">
+                <img src="img/simbolo_acessibilidade.webp" alt="Abrir Acessibilidade">
+                <p>Acessibilidade</p>
+            </button>
+        </div>
+        <div class="direita">
+            <nav aria-label="navegação principal">
+                <ul>
+                    <a href="index.html">Sobre Acessibilidade</a>
+                    <a href="publicos.html">Espaços Públicos</a>
+                    <a href="digital.html">Acessibilidade Digital</a>
+                    <a href="assistivas.html">Tecnologias Assistivas</a>
+                    <a href="direitos.html">Direitos</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="nav_acessibilidade" id="nav_acessibilidade">
+        <div class="ajuste_letras">
+            <button class="diminuir" id="diminuir" onclick="diminuirFonte()">
+                <p>A-</p>
+            </button>
+            <button class="aumentar" id="aumentar" onclick="aumentarFonte()">
+                <p>A+</p>
+            </button>
+        </div>
+        <div class="ajuste_luz">
+            <button class="diminuir" id="menos_luz" onclick="diminuirLuz()">
+                <p>Diminuir Luz</p>
+            </button>
+            <button class="aumentar" id="mais_luz" onclick="aumentarLuz()">
+                <p>Aumentar Luz</p>
+            </button>
+        </div>
+        <div class="ajuste_voz" id="leitortela">
+            <button class="aumentar" id="pararTexto" onclick="pararTexto()">
+                <p>Desligar Leitor</p>
+            </button>
+            <button class="diminuir" id="lerTexto" onclick="lerTexto()">
+                <p>Ligar Leitor</p>
+            </button>
+        </div>   
+        <div class="ajuste_escuro">
+            <button class="diminuir" id="modoEscuro" onclick="alternarModo()">
+                <p>Modo Escuro</p>
+            </button>
+        </div>     
+    </div>
+    <main>
+        <h1>Espaços Públicos Acessiveis</h1>
+        <section>
+            <h2>O que são Espaços Públicos Acessíveis?</h2>
+            <div class="conteudo">
+                <p>
+                    Espaços públicos acessíveis são aqueles projetados ou adaptados para garantir que todas as pessoas, independentemente de suas habilidades ou deficiências, possam utilizá-los de maneira segura e confortável. Isso inclui ruas, praças, edifícios públicos, transportes, entre outros. A acessibilidade nos espaços públicos envolve a eliminação de barreiras físicas, como escadas, e a implementação de soluções como rampas, sinalização tátil, pisos podotátil, elevadores e banheiros adaptados.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Benefícios da Acessibilidade nos Espaços Públicos</h2>
+            <div class="conteudo">
+                <p>
+                    A acessibilidade em espaços públicos promove a inclusão social, permitindo que pessoas com deficiências participem plenamente da vida urbana. Além disso, contribui para a igualdade de oportunidades, garantindo que todos tenham acesso a serviços e atividades, sem discriminação. Espaços acessíveis também são vantajosos para idosos, gestantes e pessoas com mobilidade reduzida. A criação de um ambiente acessível traz mais liberdade de locomoção e favorece a convivência social, criando cidades mais justas e igualitárias.
+                </p>
+                <img src="img/beneficio.jpg" alt="Cadeirante utilizando rampa para entrar em um ônibus">
+            </div>
+        </section>
+        <section>
+            <h2>Exemplos de Acessibilidade em Espaços Públicos</h2>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Rampas de Acesso</h3>
+                    <p>Substituem escadas para permitir a circulação de cadeirantes e pessoas com dificuldades de mobilidade.</p>
+                </div>
+                <img src="img/rampadeacesso.jpg" alt="Rampa de acesso ao lado de uma escada">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Sinalização Tátil e Sonora</h3>
+                    <p>Ajuda pessoas com deficiência visual a se orientarem em ambientes públicos, como estações de transporte e cruzamentos.</p>
+                </div>
+                <img src="img/tatil.jpg" alt="Homem cego utilizando bengala sobre piso tátil">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Banheiros Adaptados</h3>
+                    <p>Instalações sanitárias projetadas para uso por pessoas com mobilidade reduzida ou cadeirantes, com barras de apoio e espaço amplo.</p>
+                </div>
+                <img src="img/banheiro.jpeg" alt="Vaso sanitário com apoio ao lado">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Transporte Acessível</h3>
+                    <p>Ônibus e trens equipados com elevadores e espaços reservados para cadeirantes.</p>
+                </div>
+                <img style="margin-left: 20%;" src="img/tranporte.webp" alt="Cadeirante subindo no unibus por uma rampa acessivel">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Calçadas e Passagens Seguras</h3>
+                    <p>Espaços públicos com piso adequado e obstáculos minimizados, permitindo a circulação segura de todos.</p>
+                </div>
+                <img src="img/passagem.jpg" alt="Cadeirante apertando botão de semáforo para passagem segura">
+            </div>
+        </section>
+        <section>
+            <h2>Desafios na Acessibilidade de Espaços Públicos</h2>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Infraestrutura Inadequada</h3>
+                    <p>Em muitas cidades, a falta de rampas, pisos táteis e outras adaptações em locais públicos dificulta a mobilidade de pessoas com deficiências.</p>
+                </div>
+                <img src="img/calcada_quebrada.jpeg" alt="Calçada quebrada dificultando a passagem de cadeirantes e pedestres">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Resistência à Implementação de Mudanças</h3>
+                    <p>A resistência à implementação de mudanças em acessibilidade nos espaços públicos é um desafio significativo, muitas vezes causado pela falta de conscientização sobre sua importância e pelo equívoco de que adaptações são financeiramente inviáveis. Infraestruturas antigas e inadequadas, aliadas ao desconhecimento das normas, também dificultam o progresso. Além disso, adaptações em espaços históricos ou sistemas urbanos já consolidados encontram barreiras técnicas e culturais, reforçando a necessidade de maior educação e sensibilização sobre acessibilidade como um direito essencial para todos.</p>
+                </div>
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Desigualdade Regional</h3>
+                    <p> A adaptação de espaços existentes muitas vezes esbarra na falta de conscientização e vontade política.</p>
+                </div>
+                <img src="img/desigualdadel.webp" alt="Imagem destacando desigualdade regional">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Exclusão Social</h3>
+                    <p>A exclusão social é um dos principais desafios enfrentados pelas pessoas com deficiência, mesmo em ambientes que oferecem infraestrutura acessível. Atitudes preconceituosas, estereótipos e a falta de conscientização contribuem para a marginalização desses indivíduos em diversas esferas da vida, como educação, mercado de trabalho e lazer. Muitas vezes, a sociedade ainda enxerga a deficiência como uma limitação absoluta, ignorando as capacidades e contribuições das pessoas com deficiência. </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Adryan Costa Silva</p>
+        </div>
+    </footer>
+    <script src="actions.js"></script>
+</body>
+</html>

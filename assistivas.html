@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Tecnologias Assistivas</title>
+</head>
+<body>
+    <header>
+        <div class="esquerda">
+            <button class="button" id="button" onclick="btnFunction()">
+                <img src="img/simbolo_acessibilidade.webp" alt="Abrir Acessibilidade">
+                <p>Acessibilidade</p>
+            </button>
+        </div>
+        <div class="direita">
+            <nav aria-label="navegação principal">
+                <ul>
+                    <a href="index.html">Sobre Acessibilidade</a>
+                    <a href="publicos.html">Espaços Públicos</a>
+                    <a href="digital.html">Acessibilidade Digital</a>
+                    <a href="assistivas.html">Tecnologias Assistivas</a>
+                    <a href="direitos.html">Direitos</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="nav_acessibilidade" id="nav_acessibilidade">
+        <div class="ajuste_letras">
+            <button class="diminuir" id="diminuir" onclick="diminuirFonte()">
+                <p>A-</p>
+            </button>
+            <button class="aumentar" id="aumentar" onclick="aumentarFonte()">
+                <p>A+</p>
+            </button>
+        </div>
+        <div class="ajuste_luz">
+            <button class="diminuir" id="menos_luz" onclick="diminuirLuz()">
+                <p>Diminuir Luz</p>
+            </button>
+            <button class="aumentar" id="mais_luz" onclick="aumentarLuz()">
+                <p>Aumentar Luz</p>
+            </button>
+        </div>
+        <div class="ajuste_voz" id="leitortela">
+            <button class="aumentar" id="pararTexto" onclick="pararTexto()">
+                <p>Desligar Leitor</p>
+            </button>
+            <button class="diminuir" id="lerTexto" onclick="lerTexto()">
+                <p>Ligar Leitor</p>
+            </button>
+        </div>   
+        <div class="ajuste_escuro">
+            <button class="diminuir" id="modoEscuro" onclick="alternarModo()">
+                <p>Modo Escuro</p>
+            </button>
+        </div>     
+    </div>
+    <main>
+        <h1>Tecnologias Assistivas</h1>
+        <section>
+            <h2>O que São Tecnologias Assistivas?</h2>
+            <div class="conteudo">
+                <p>
+                    As tecnologias assistivas referem-se a dispositivos, softwares e sistemas projetados para melhorar a funcionalidade e a qualidade de vida de pessoas com deficiência. Elas ajudam a superar as barreiras físicas, cognitivas ou sensoriais, promovendo uma maior autonomia no dia a dia. Isso pode incluir desde ferramentas simples, como uma lupa digital, até inovações mais complexas, como sistemas de leitura de tela e interfaces de voz.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Exemplos de Tecnologias Assistivas</h2>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Leitores de Tela</h3>
+                    <p>Ferramentas que leem o conteúdo da tela para pessoas com deficiência visual.</p>
+                </div>
+                <img style="margin-left: 20% ;" src="img/leitor-tela.jpg" alt="Pessoa utilizando software de leitura de tela em um celular">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Ampliadores de Tela</h3>
+                    <p>Softwares que aumentam o tamanho do conteúdo na tela para pessoas com baixa visão.</p>
+                </div>
+                <img style="margin-left: 20% ;" src="img/lupa.jpeg" alt="Imagem de uma lupa">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Teclados e Mouses Adaptados</h3>
+                    <p>Dispositivos de entrada que permitem que pessoas com deficiência motora interajam com o computador de maneira eficiente.</p>
+                </div>
+                <img src="img/teclado-mouse.jpg" alt="Teclado e mouse adaptados para pessoas com deficiência motora">
+            </div>
+            <div class="conteudo">
+                <div class="sub_conteudo">
+                    <h3>Tecnologias de Comunicação Aumentativa e Alternativa (CAA)</h3>
+                    <p>Dispositivos que ajudam pessoas com dificuldades de fala a se comunicarem, como pranchas de comunicação e sistemas de voz sintetizada.</p>
+                </div>
+                <img style="margin-left: 20%;" src="img/comunic-alter.jpg" alt="Objeto de comunicação alternativa para deficiência de fala e audição">
+            </div>
+        </section>
+        <section>
+            <h2>Benefícios das Tecnologias Assistivas no Ambiente de Trabalho</h2>
+            <div class="conteudo">
+                <p>
+                    As tecnologias assistivas no mercado de trabalho têm o poder de transformar a vida profissional das pessoas com deficiência, promovendo um ambiente mais inclusivo, acessível e produtivo. Ferramentas como softwares de leitura de tela, teclados e mouses adaptados, além de soluções digitais de comunicação, garantem que as pessoas com diferentes tipos de deficiência possam acessar as mesmas oportunidades que seus colegas, eliminando barreiras físicas, digitais e sociais. Isso contribui não apenas para a melhoria da qualidade de vida dos trabalhadores com deficiência, mas também para o fortalecimento de uma cultura de inclusão e respeito no mercado de trabalho.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Inovações em Tecnologias Assistivas</h2>
+            <div class="conteudo">
+                <p>
+                    As inovações em tecnologias assistivas têm o potencial de revolucionar a vida das pessoas com deficiência, permitindo-lhes viver de forma mais autônoma, interagir com o mundo de maneira mais inclusiva e participar de atividades cotidianas com maior liberdade. A inteligência artificial, a realidade aumentada, a realidade virtual e os dispositivos vestíveis estão transformando áreas como saúde, mobilidade e comunicação, garantindo que as pessoas com deficiência possam acessar as mesmas oportunidades que todos. Esses avanços, combinados com a crescente conscientização sobre a importância da acessibilidade, são passos fundamentais rumo a uma sociedade mais inclusiva e equitativa.
+                </p>
+                <img src="img/realidade-estendida.jpeg" alt="Pessoa utilizando de realidade aumentada">
+            </div>
+        </section>
+        <section>
+            <h2>Desafios e Barreiras no Acesso a Tecnologias Assistiva</h2>
+            <div class="conteudo">
+                <p>
+                    Muitos desafios ainda precisam ser superados para garantir o acesso universal a essas ferramentas. A redução de custos, a criação de políticas públicas eficazes, a expansão da variedade de opções acessíveis e a superação de barreiras culturais e de desinformação são questões cruciais que devem ser abordadas para garantir que as tecnologias assistivas possam cumprir seu papel na inclusão social e na melhoria da qualidade de vida de pessoas com deficiência. Com um esforço conjunto entre governos, empresas e organizações da sociedade civil, é possível construir um futuro mais acessível e igualitário para todos.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Tecnologias Assistivas e Acessibilidade Digital</h2>
+            <div class="conteudo">
+                <p>
+                    As tecnologias assistivas são um componente vital para garantir a acessibilidade digital e a inclusão de pessoas com deficiência no mundo online. Ferramentas como leitores de tela, softwares de navegação por voz e outros dispositivos especializados são essenciais para permitir que todos tenham acesso igualitário à web. Para que isso aconteça de maneira eficaz, é fundamental que os desenvolvedores integrem essas tecnologias em seus websites e aplicativos desde o início do processo de design. A conscientização, treinamento e o cumprimento das normas de acessibilidade são passos importantes para criar um ambiente digital verdadeiramente inclusivo, onde qualquer pessoa, independentemente de suas necessidades, possa interagir com os recursos e conteúdos disponíveis online.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Adryan Costa Silva</p>
+        </div>
+    </footer>
+    <script src="actions.js"></script>
+</body>
+</html>

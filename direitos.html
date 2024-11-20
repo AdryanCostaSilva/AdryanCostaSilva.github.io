@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Direitos</title>
+</head>
+<body>
+    <header>
+        <div class="esquerda">
+            <button class="button" id="button" onclick="btnFunction()">
+                <img src="img/simbolo_acessibilidade.webp" alt="Abrir Acessibilidade">
+                <p>Acessibilidade</p>
+            </button>
+        </div>
+        <div class="direita">
+            <nav aria-label="navegação principal">
+                <ul>
+                    <a href="index.html">Sobre Acessibilidade</a>
+                    <a href="publicos.html">Espaços Públicos</a>
+                    <a href="digital.html">Acessibilidade Digital</a>
+                    <a href="assistivas.html">Tecnologias Assistivas</a>
+                    <a href="direitos.html">Direitos</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="nav_acessibilidade" id="nav_acessibilidade">
+        <div class="ajuste_letras">
+            <button class="diminuir" id="diminuir" onclick="diminuirFonte()">
+                <p>A-</p>
+            </button>
+            <button class="aumentar" id="aumentar" onclick="aumentarFonte()">
+                <p>A+</p>
+            </button>
+        </div>
+        <div class="ajuste_luz">
+            <button class="diminuir" id="menos_luz" onclick="diminuirLuz()">
+                <p>Diminuir Luz</p>
+            </button>
+            <button class="aumentar" id="mais_luz" onclick="aumentarLuz()">
+                <p>Aumentar Luz</p>
+            </button>
+        </div>
+        <div class="ajuste_voz" id="leitortela">
+            <button class="aumentar" id="pararTexto" onclick="pararTexto()">
+                <p>Desligar Leitor</p>
+            </button>
+            <button class="diminuir" id="lerTexto" onclick="lerTexto()">
+                <p>Ligar Leitor</p>
+            </button>
+        </div>   
+        <div class="ajuste_escuro">
+            <button class="diminuir" id="modoEscuro" onclick="alternarModo()">
+                <p>Modo Escuro</p>
+            </button>
+        </div>     
+    </div>
+    <main>
+        <h1>Direitos</h1>
+        <section>
+            <h2>Direitos das Pessoas com Deficiência no Brasil</h2>
+            <div class="conteudo">
+                <p>
+                    No Brasil, os direitos das pessoas com deficiência são garantidos pela Lei Brasileira de Inclusão (LBI), promulgada em 2015. Essa legislação assegura que as pessoas com deficiência tenham acesso igualitário em diversas áreas, como educação, saúde, transporte, cultura, e, especialmente, no direito à acessibilidade. A LBI estabelece que a falta de acessibilidade, seja ela física, comunicacional ou digital, é considerada uma forma de discriminação. Além disso, a Convenção sobre os Direitos das Pessoas com Deficiência da ONU também é um marco internacional que reforça o direito à inclusão, promovendo a igualdade de oportunidades e a eliminação de barreiras.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Lei Brasileira de Inclusão (LBI) e Acessibilidade</h2>
+            <div class="conteudo">
+                <p>
+                    A Lei Brasileira de Inclusão (LBI), oficialmente conhecida como Lei nº 13.146/2015, é um marco legal no Brasil, pois aborda questões de acessibilidade de maneira abrangente. A lei assegura que a acessibilidade física, atitudinal, comunicacional e digital seja garantida em todos os setores da sociedade. Além disso, a LBI prevê que as tecnologias assistivas sejam oferecidas de forma acessível para todas as pessoas com deficiência, promovendo sua participação plena na sociedade <br><br>
+                    Saiba mais sobre a LBI <a class="link" href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm" target="_blank">aqui</a>
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Direitos no Mercado de Trabalho</h2>
+            <div class="conteudo">
+                <p>
+                    As pessoas com deficiência têm direito a uma vaga de emprego e à igualdade de condições no mercado de trabalho. A Lei de Cotas (Lei nº 8.213/91) exige que empresas com 100 ou mais empregados reservem de 2% a 5% de suas vagas para pessoas com deficiência. Além disso, a LBI garante que os empregadores adotem medidas de acessibilidade no ambiente de trabalho, como adaptações de postos de trabalho e recursos como tecnologia assistiva, para garantir que os profissionais com deficiência possam desempenhar suas funções de maneira igualitária.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Direito à Educação Inclusiva</h2>
+            <div class="conteudo">
+                <p>
+                    O direito à educação inclusiva é garantido pela Lei de Diretrizes e Bases da Educação Nacional (LDB) e pela LBI. Isso significa que as instituições educacionais devem oferecer acessibilidade física e digital, materiais adaptados e suporte especializado para estudantes com deficiência. A educação deve ser oferecida em escolas regulares, com adequações para garantir a aprendizagem de todos, respeitando as particularidades de cada aluno. Além disso, a LBI reforça que a audiodescrição, o uso de libras (Língua Brasileira de Sinais) e outras alternativas de comunicação são direitos dos estudantes com deficiência.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Direitos no Acesso à Cultura e Lazer</h2>
+            <div class="conteudo">
+                <p>
+                    A acessibilidade cultural é um direito fundamental das pessoas com deficiência, garantido pela LBI. Isso inclui o acesso a teatros, cinemas, exposições de arte, e outros eventos culturais. A legislação determina que esses espaços devem ser adaptados, proporcionando audiodescrição, interpretação em Libras e outros meios de comunicação que permitam a plena participação das pessoas com deficiência. Além disso, a acessibilidade digital, como sites e plataformas de streaming, também é um componente importante, permitindo que conteúdos culturais sejam acessíveis a todos.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Acesso à Saúde e Acessibilidade em Serviços</h2>
+            <div class="conteudo">
+                <p>
+                    A acessibilidade na saúde é um direito importante, abrangendo o atendimento médico e os serviços de saúde. A Lei Brasileira de Inclusão determina que os serviços de saúde, tanto públicos quanto privados, devem ser acessíveis a todas as pessoas com deficiência, com a adequação de espaços físicos e disponibilização de recursos como leitores de tela para os deficientes visuais e interpretes de libras para deficientes auditivos. Além disso, o direito à saúde mental também deve ser promovido de forma inclusiva.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>O Papel das Políticas Públicas e da Sociedade na Garantia dos Direitos</h2>
+            <div class="conteudo">
+                <p>
+                    Além das leis, as políticas públicas desempenham um papel essencial na promoção e fiscalização da acessibilidade e na proteção dos direitos das pessoas com deficiência. Isso inclui a criação de programas sociais que garantam a inclusão no mercado de trabalho, acesso à educação, atendimento à saúde e, claro, acessibilidade nos espaços públicos e digitais. A sociedade também tem um papel crucial em garantir que as normas e leis sejam cumpridas, combatendo práticas discriminatórias e promovendo a inclusão.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Acessibilidade Digital como Direito Fundamental</h2>
+            <div class="conteudo">
+                <p>
+                    A acessibilidade digital está rapidamente sendo reconhecida como um direito fundamental. A Constituição Brasileira, embora não trate diretamente da acessibilidade digital, já assegura o direito à informação e à participação plena na vida pública, o que inclui o acesso a informações digitais. A Lei Brasileira de Inclusão e as Diretrizes de Acessibilidade Digital, como as WCAG, reforçam que sites, aplicativos e outras plataformas digitais devem ser acessíveis a todos, incluindo as pessoas com deficiência. <br><br>
+                    Consulte as Diretrizes de Acessibilidade para Conteúdo Web (WCAG) <a class="link" href="https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/" target="_blank">aqui</a>.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Adryan Costa Silva</p>
+        </div>
+    </footer>
+    <script src="actions.js"></script>
+</body>
+</html>

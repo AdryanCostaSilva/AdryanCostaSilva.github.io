@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Tecnologias Assistivas</title>
+</head>
+<body>
+    <header>
+        <div class="esquerda">
+            <button class="button" id="button" onclick="btnFunction()">
+                <img src="img/simbolo_acessibilidade.webp" alt="Abrir Acessibilidade">
+                <p>Acessibilidade</p>
+            </button>
+        </div>
+        <div class="direita">
+            <nav aria-label="navegação principal">
+                <ul>
+                    <a href="index.html">Sobre Acessibilidade</a>
+                    <a href="publicos.html">Espaços Públicos</a>
+                    <a href="digital.html">Acessibilidade Digital</a>
+                    <a href="assistivas.html">Tecnologias Assistivas</a>
+                    <a href="direitos.html">Direitos</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="nav_acessibilidade" id="nav_acessibilidade">
+        <div class="ajuste_letras">
+            <button class="diminuir" id="diminuir" onclick="diminuirFonte()">
+                <p>A-</p>
+            </button>
+            <button class="aumentar" id="aumentar" onclick="aumentarFonte()">
+                <p>A+</p>
+            </button>
+        </div>
+        <div class="ajuste_luz">
+            <button class="diminuir" id="menos_luz" onclick="diminuirLuz()">
+                <p>Diminuir Luz</p>
+            </button>
+            <button class="aumentar" id="mais_luz" onclick="aumentarLuz()">
+                <p>Aumentar Luz</p>
+            </button>
+        </div>
+        <div class="ajuste_voz" id="leitortela">
+            <button class="aumentar" id="pararTexto" onclick="pararTexto()">
+                <p>Desligar Leitor</p>
+            </button>
+            <button class="diminuir" id="lerTexto" onclick="lerTexto()">
+                <p>Ligar Leitor</p>
+            </button>
+        </div>   
+        <div class="ajuste_escuro">
+            <button class="diminuir" id="modoEscuro" onclick="alternarModo()">
+                <p>Modo Escuro</p>
+            </button>
+        </div>     
+    </div>
+    <main>
+        <h1>Acessibilidade Digital</h1>
+        <section>
+            <h2>O que é Acessibilidade Digital?</h2>
+            <div class="conteudo">
+                <p>
+                    A acessibilidade digital refere-se à criação de tecnologias, sites, aplicativos e conteúdos online que possam ser utilizados por todos, incluindo pessoas com deficiência visual, auditiva, motora ou cognitiva. Seu objetivo é eliminar barreiras e permitir que qualquer pessoa tenha acesso pleno às ferramentas digitais. Isso inclui o design inclusivo, garantindo que interfaces sejam navegáveis com teclado ou comandos de voz, e a compatibilidade com tecnologias assistivas, como leitores de tela e dispositivos alternativos. Também envolve oferecer alternativas para conteúdos, como legendas em vídeos, descrições em imagens e transcrições de áudio, além de priorizar uma navegação simples e intuitiva. A acessibilidade digital não apenas promove a inclusão de pessoas com deficiência, mas também beneficia outros grupos, como idosos, usuários com conexões limitadas e aqueles que dependem de dispositivos móveis, tornando a experiência digital mais acessível e eficiente para todos.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>A situação da acessibilidade digital no Brasil</h2>
+            <div class="conteudo">
+                <p>
+                    Apesar das leis que garantem a inclusão, como a Lei Brasileira de Inclusão (LBI), a acessibilidade digital no Brasil ainda é limitada. Estudo realizado pelo Movimento Web Para Todos revelou que menos de 1% dos sites brasileiros são totalmente acessíveis. Com mais de 17,3 milhões de pessoas com deficiência no Brasil, essa falta de acessibilidade digital ainda é uma grande barreira para a inclusão.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Como a acessibilidade digital beneficia toda a população?</h2>
+            <div class="conteudo">
+                <p>
+                    Embora a acessibilidade digital seja crucial para pessoas com deficiência, ela também traz vantagens para todos. Funcionalidades como atalhos de teclado, por exemplo, ajudam não apenas pessoas com mobilidade reduzida, mas também aquelas que precisam de soluções práticas para navegar de forma mais eficiente. A acessibilidade é uma prática que melhora a experiência online para qualquer usuário, seja com deficiência ou não.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Acessibilidade Digital e Inclusão Social</h2>
+            <div class="conteudo">
+                <p>
+                    A acessibilidade digital não apenas promove a inclusão de pessoas com deficiência, mas também reflete o compromisso das empresas com a responsabilidade social. Ela está diretamente alinhada aos Objetivos de Desenvolvimento Sustentável (ODS), especialmente no que diz respeito à redução da desigualdade. Além disso, empresas que se engajam com causas sociais, como a inclusão digital, ganham a preferência dos consumidores, aumentando sua credibilidade e confiança.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Impactos para as Organizações</h2>
+            <div class="conteudo">
+                <p>
+                    Acessibilidade digital não é apenas uma questão de benefícios para as organizações, mas uma oportunidade de criar um ambiente online mais inclusivo e justo para todos. Ao melhorar a navegação e o acesso para pessoas com deficiência, as empresas desempenham um papel fundamental na promoção da igualdade digital e no fortalecimento de uma sociedade mais inclusiva. O impacto positivo nas práticas de SEO é um reflexo natural dessas boas práticas, mas o verdadeiro benefício está em garantir que todos, independentemente de suas condições, possam acessar e interagir com o conteúdo digital de maneira plena e igualitária.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Adryan Costa Silva</p>
+        </div>
+    </footer>
+    <script src="actions.js"></script>
+</body>
+</html>

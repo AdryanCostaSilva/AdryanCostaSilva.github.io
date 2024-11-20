@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Sobre Acessibilidade</title>
+</head>
+<body>
+    <header>
+        <div class="esquerda">
+            <button class="button" id="button" onclick="btnFunction()">
+                <img src="img/simbolo_acessibilidade.webp" alt="Abrir Acessibilidade">
+                <p>Acessibilidade</p>
+            </button>
+        </div>
+        <div class="direita">
+            <nav aria-label="navegação principal">
+                <ul>
+                    <a href="index.html">Sobre Acessibilidade</a>
+                    <a href="publicos.html">Espaços Públicos</a>
+                    <a href="digital.html">Acessibilidade Digital</a>
+                    <a href="assistivas.html">Tecnologias Assistivas</a>
+                    <a href="direitos.html">Direitos</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="nav_acessibilidade" id="nav_acessibilidade">
+        <div class="ajuste_letras">
+            <button class="diminuir" id="diminuir" onclick="diminuirFonte()">
+                <p>A-</p>
+            </button>
+            <button class="aumentar" id="aumentar" onclick="aumentarFonte()">
+                <p>A+</p>
+            </button>
+        </div>
+        <div class="ajuste_luz">
+            <button class="diminuir" id="menos_luz" onclick="diminuirLuz()">
+                <p>Diminuir Luz</p>
+            </button>
+            <button class="aumentar" id="mais_luz" onclick="aumentarLuz()">
+                <p>Aumentar Luz</p>
+            </button>
+        </div>
+        <div class="ajuste_voz" id="leitortela">
+            <button class="aumentar" id="pararTexto" onclick="pararTexto()">
+                <p>Desligar Leitor</p>
+            </button>
+            <button class="diminuir" id="lerTexto" onclick="lerTexto()">
+                <p>Ligar Leitor</p>
+            </button>
+        </div>   
+        <div class="ajuste_escuro">
+            <button class="diminuir" id="modoEscuro" onclick="alternarModo()">
+                <p>Modo Escuro</p>
+            </button>
+        </div>     
+    </div>
+    <main>
+        <h1>Sobre acessibilidade</h1>
+        <section>
+            <h2>O que é Acessibilidade?</h2>
+            <div class="conteudo" id="conteudo">
+                <p>
+                    Acessibilidade pode ser definida como a possibilidade e condição de alcance, percepção e entendimento para a utilização, em igualdade de oportunidades, com segurança e autonomia, do meio físico, do transporte, da informação e da comunicação, inclusive dos sistemas e tecnologias de informação e comunicação, bem como de outros serviços e instalações. Para as pessoas com deficiência e mobilidade reduzida, a acessibilidade possibilita uma vida independente e com participação plena em todos os seus aspectos; e para todas as pessoas, em diferentes contextos, pode proporcionar maior conforto, facilidade de uso, rapidez, satisfação, segurança e eficiência.
+                </p>
+                <img src="img/oquee.jpeg" alt="Representação sobre acessibilidade">
+            </div>
+        </section>
+        <section>
+            <h2>Importância da Acessibilidade</h2>
+            <div class="conteudo">
+                <p>
+                    A acessibilidade tem como principal objetivo garantir que as pessoas com deficiência possam viver de maneira independente e participar ativamente da sociedade. Promover a acessibilidade significa assegurar que essas pessoas tenham acesso igualitário ao ambiente físico, ao transporte, à informação e à comunicação, incluindo os sistemas e tecnologias de informação, além de outros serviços e instalações de uso público.
+                </p>
+                <img src="img/inclusao.jpeg" alt="Crianças com deficiência utilizando computadores adaptados em sala de aula">
+            </div>
+        </section>
+        <section>
+            <h2>História da Acessibilidade</h2>
+            <div class="conteudo">
+                <p>
+                    A acessibilidade começou na Grécia Antiga, com leis que facilitavam o acesso a pessoas com deficiência. No século XX, movimentos sociais, como o Disability Rights Movement, promoveram a inclusão, levando à criação de leis como a Americans with Disabilities Act (ADA) e a Lei Brasileira de Inclusão (LBI).<br>
+                    Nos anos 2000, a acessibilidade digital ganhou destaque com as WCAG, visando tornar a internet acessível para todos. Apesar dos avanços, ainda existem desafios como barreiras arquitetônicas e dificuldades de integração entre tecnologias assistivas e websites.<br>
+                    A acessibilidade é uma questão global, com iniciativas como o Dia Internacional da Pessoa com Deficiência, e deve ser reconhecida como um direito humano fundamental, garantindo igualdade e inclusão.
+                </p>
+                <img src="img/historia.jpg" alt="Protesto com cartazes pedindo mais acessibilidade e inclusão social">
+            </div>
+        </section>
+        <section>
+            <h2>Dificuldades da Acessibilidade</h2>
+            <div class="conteudo">
+                <p>
+                    Embora avanços tenham sido feitos, ainda existem muitos desafios para garantir a plena acessibilidade. Muitos ambientes públicos não possuem adaptações necessárias, como rampas de acesso, sinalização em braille ou banheiros adaptados. Além disso, a acessibilidade digital ainda é um campo em que muitos sites, aplicativos e plataformas não atendem às necessidades de pessoas com deficiência, como os deficientes visuais, auditivos e motoras.
+                </p>
+                <img src="img/importancia.jpg" alt="Cadeirante diante de uma escada sem rampa de acesso">
+            </div>
+        </section>
+        <section>
+            <h2>Avanços na Acessibilidade</h2>
+            <div class="conteudo">
+                <p>
+                    Acessibilidade tem evoluído significativamente ao longo das últimas décadas, com progressos em áreas como legislação, infraestrutura, e tecnologias assistivas. Leis como a Americans with Disabilities Act (ADA) e a Lei Brasileira de Inclusão (LBI) estabeleceram direitos e garantiram acessibilidade em espaços públicos e privados. No campo digital, surgiram as Diretrizes de Acessibilidade para Conteúdo Web (WCAG), impulsionando a inclusão online. Além disso, as inovações tecnológicas, como softwares de leitura de tela e dispositivos de mobilidade assistiva, têm ampliado as possibilidades para a participação plena das pessoas com deficiência na sociedade.
+                </p>
+                <img src="img/avanco.jpg" alt="Cadeirante utilizando uma rampa ao lado de uma escada em espaço público">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Adryan Costa Silva</p>
+        </div>
+    </footer>
+    <script src="actions.js"></script>
+</body>
+</html>
